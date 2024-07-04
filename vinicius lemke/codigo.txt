@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mayhem - Banda de Black Metal</title>
+    <audio autoplay loop style="display:none;">
+        <source src="chimera.mp3.mp3" type="audio/mpeg">
+    </audio>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+            padding-bottom: 50px; /* Adiciona espaço extra para o rodapé */
+            background-image: url('https://i0.wp.com/www.metalarmy.com.br/wp-content/uploads/2020/08/mayhem-chimera.jpg?fit=1680%2C1680&ssl=1');
+            background-size: cover; /* Ajusta a imagem para cobrir toda a área */
+            background-position: center; /* Centraliza a imagem */
+            background-repeat: no-repeat; /* Evita repetição da imagem */
+        }
+        header {
+            background-color: rgba(0, 0, 0, 0.8); /* Fundo semi-transparente */
+            padding: 10px 0;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        header img {
+            margin-right: 10px;
+            border: 2px solid #ffffff; /* Adiciona uma borda branca ao redor do GIF */
+            border-radius: 5px;
+        }
+        nav {
+            background-color: rgba(51, 51, 51, 0.8); /* Fundo semi-transparente */
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #ffffff;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+            background-color: rgba(26, 26, 26, 0.8); /* Fundo semi-transparente */
+            margin: 10px;
+            border-radius: 10px;
+        }
+        footer {
+            background-color: rgba(0, 0, 0, 0.8); /* Fundo semi-transparente */
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://media2.giphy.com/media/3htkNQwhqtoawPiVVm/giphy.gif?cid=6c09b952j7by1etcbiocnkeb7jk1nwhwdkpilgax0u0osw5p&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g" alt="Mayhem GIF" width="50" height="50">
+        <h1>Mayhem</h1>
+        <img src="https://media2.giphy.com/media/3htkNQwhqtoawPiVVm/giphy.gif?cid=6c09b952j7by1etcbiocnkeb7jk1nwhwdkpilgax0u0osw5p&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g" alt="Mayhem GIF" width="50" height="50">
+
+        
+    </header>
+    <nav>
+        <a href="#intro">Introdução</a>
+        <a href="#discografia">Discografia</a>
+        <a href="#membros">Membros</a>
+        <a href="#links">Links Úteis</a>
+    </nav>
+    <section id="intro">
+        <h2>Introdução</h2>
+        <p>Mayhem é uma banda de black metal formada em 1984 em Oslo, Noruega. É uma das bandas mais influentes e controversas do gênero, conhecida tanto pela sua música quanto pelos eventos trágicos e polêmicos envolvendo seus membros.</p>
+        <img src="https://www.thetruemayhem.com/wp-content/uploads/2021/05/The-Mayhem-Logo-White-e1614865822110.png" width="450" height="450" alt="Logo Mayhem">
+    </section>
+    <section id="video">
+        <h2>Videoclipe</h2>
+        <video width="560" height="315" controls>
+            <source src="mayhem.video.mp4" type="video/mp4">
+            Seu navegador não suporta o elemento de vídeo.
+        </video>
+    </section>
+    <section id="discografia">
+        <h2>Discografia</h2>
+        <ul>
+            <li><strong>Deathcrush</strong> (1987)</li>
+            <li><strong>De Mysteriis Dom Sathanas</strong> (1994)</li>
+            <li><strong>Wolf's Lair Abyss</strong> (1997)</li>
+            <li><strong>Grand Declaration of War</strong> (2000)</li>
+            <li><strong>Chimera</strong> (2004)</li>
+            <li><strong>Ordo Ad Chao</strong> (2007)</li>
+            <li><strong>Esoteric Warfare</strong> (2014)</li>
+            <li><strong>Daemon</strong> (2019)</li>
+        </ul>
+    </section>
+    <section id="membros">
+        <h2>Membros</h2>
+        <ul>
+            <li><strong>Attila Csihar</strong> - Vocalista</li>
+            <li><strong>Necrobutcher</strong> - Baixista</li>
+            <li><strong>Hellhammer</strong> - Baterista</li>
+            <li><strong>Teloch</strong> - Guitarrista</li>
+            <li><strong>Ghul</strong> - Guitarrista</li>
+        </ul>
+    </section>
+    <section id="links">
+        <h2>Links Úteis</h2>
+        <ul>
+            <li><a href="https://www.thetruemayhem.com" target="_blank">Site Oficial do Mayhem</a></li>
+            <li><a href="https://pt.wikipedia.org/wiki/Mayhem" target="_blank">Wikipedia</a></li>
+            <li><a href="https://www.metal-archives.com/bands/Mayhem/168" target="_blank">Metal Archives</a></li>
+        </ul>
+    </section>
+    <footer>
+        <p>&copy; 2024 Mayhem Fansite</p>
+    </footer>
+</body>
+</html>
